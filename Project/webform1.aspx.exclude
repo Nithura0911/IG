@@ -1,0 +1,89 @@
+<%@ Page language="c#" Codebehind="WebForm1.aspx.cs" AutoEventWireup="false" Inherits="Eschool.WebForm1" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>WebForm1</title>
+		<meta name="GENERATOR" Content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" Content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form id="Form1" method="post" runat="server">
+			<table class="maintblcls" align="center" cellpadding="2">
+				<TBODY>
+					<tr class="tdcls">
+						<td class="headingtext" align="center" colSpan="2">&nbsp;Student Registration</td>
+					</tr>
+					<tr class="tdcls">
+						<td align="center" colSpan="2"></td>
+					</tr>
+					<tr class="tdcls">
+						<TD align="right">
+							<asp:label id="lblfname" runat="server" text="First Name "><sup>*</sup>First Name</asp:label></TD>
+						<TD>
+							<asp:textbox id="txtfname" runat="server" CssClass="txtcls"></asp:textbox></TD>
+					</tr>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lblbid" runat="server" text="Mid Name "><sup>*</sup>Mid Name </asp:label></TD>
+						<TD>
+							<asp:textbox id="txtmname" runat="server" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lbllname" runat="server" text="Last Name "></asp:label></TD>
+						<TD>
+							<asp:textbox id="txtlname" runat="server" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lblfather" runat="server" text="Email Id "><sup>*</sup>Email Id</asp:label></TD>
+						<TD>
+							<asp:textbox id="txtEmail" runat="server" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lblcourse" runat="server" text="Course "></asp:label></TD>
+						<TD>
+							<asp:listbox id="lstcourse" runat="server" CssClass="txtcls"></asp:listbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lblquli" runat="server" text="Qualification "></asp:label></TD>
+						<TD>
+							<asp:textbox id="txtquali" runat="server" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lbladdress" runat="server" text="Address1 "><sup>*</sup>Address1</asp:label></TD>
+						<TD>
+							<asp:textbox id="txtaddress" runat="server" textmode="multiline" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lblpere" runat="server" text="Address2 "></asp:label></TD>
+						<TD>
+							<asp:textbox id="txtperrme" runat="server" textmode="multiline" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					</TR>
+					<TR class="tdcls">
+						<TD align="right">
+							<asp:label id="lblphone" runat="server" text="Phone Number "><sup>*</sup>Phone Number</asp:label></TD>
+						<TD>
+							<asp:textbox id="txtphone" runat="server" CssClass="txtcls"></asp:textbox></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD></TD>
+						<TD></TD>
+					</TR>
+					<TR class="tdcls">
+						<TD align="center" colspan="2">
+							<asp:button id="button1" runat="server" text="Submit" CssClass="btncls"></asp:button>&nbsp;&nbsp;<INPUT type="reset" value="Reset" class="btncls">&nbsp;&nbsp;
+						</TD>
+					</TR>
+				</TBODY>
+			</table>
+		</form>
+	</body>
+</HTML>

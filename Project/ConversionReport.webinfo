@@ -1,0 +1,124 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file Eschool.csproj at December 31 2008, 10:08:46.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+The following files were excluded from the website because they were not found in the project file or the associated 'BuildAction' is set to 'None'.
+File List == webform1.aspx,studentdownloadmaterial.aspx.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute AutoEventWireup from file Aboutus.aspx.
+Removed attribute Codebehind from file Aboutus.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Aboutus.aspx.cs (Line 19).
+Removed attribute AutoEventWireup from file AddResuls.aspx.
+Removed attribute Codebehind from file AddResuls.aspx.
+Access level of 'Page_Load' changed to 'protected' in file AddResultsdisplay.aspx.cs (Line 55).
+Access level of 'button1_Click' changed to 'protected' in file AddResultsdisplay.aspx.cs (Line 91).
+Removed attribute AutoEventWireup from file AddStaffDetails.aspx.
+Removed attribute Codebehind from file AddStaffDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file AddStaffDetails.aspx.cs (Line 48).
+Access level of 'btnsubmit_Click' changed to 'protected' in file AddStaffDetails.aspx.cs (Line 187).
+Access level of 'btnCancel_Click' changed to 'protected' in file AddStaffDetails.aspx.cs (Line 194).
+Removed attribute AutoEventWireup from file AdminAddStudentMarksDetails.aspx.
+Removed attribute Codebehind from file AdminAddStudentMarksDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file AdminAddStudentMarksDetails.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file AdministrationLogin.aspx.
+Removed attribute Codebehind from file AdministrationLogin.aspx.
+Access level of 'Page_Load' changed to 'protected' in file AdministrationLogin.aspx.cs (Line 27).
+Access level of 'btnsubmit_Click' changed to 'protected' in file AdministrationLogin.aspx.cs (Line 52).
+Removed attribute AutoEventWireup from file AdminStaffPaymentDetails.aspx.
+Removed attribute Codebehind from file AdminStaffPaymentDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file AdminStaffPaymentDetails.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file contact.aspx.
+Removed attribute Codebehind from file contact.aspx.
+Access level of 'Page_Load' changed to 'protected' in file contact.aspx.cs (Line 24).
+Removed attribute AutoEventWireup from file Coursereg.aspx.
+Removed attribute Codebehind from file Coursereg.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Coursereg.aspx.cs (Line 97).
+Access level of 'button1_Click' changed to 'protected' in file Coursereg.aspx.cs (Line 136).
+Removed attribute AutoEventWireup from file CourseSchedules.aspx.
+Removed attribute Codebehind from file CourseSchedules.aspx.
+Access level of 'Page_Load' changed to 'protected' in file CourseSchedules.aspx.cs (Line 34).
+Access level of 'btnsubmit_Click' changed to 'protected' in file CourseSchedules.aspx.cs (Line 74).
+Removed attribute AutoEventWireup from file courseshedules.aspx.
+Removed attribute Codebehind from file courseshedules.aspx.
+Access level of 'Page_Load' changed to 'protected' in file courseshedules.aspx.cs (Line 25).
+Removed attribute AutoEventWireup from file displayresults.aspx.
+Removed attribute Codebehind from file displayresults.aspx.
+Access level of 'Page_Load' changed to 'protected' in file displayresults.aspx.cs (Line 38).
+Access level of 'Button1_Click' changed to 'protected' in file displayresults.aspx.cs (Line 87).
+Removed attribute AutoEventWireup from file ErrorPage.aspx.
+Removed attribute Codebehind from file ErrorPage.aspx.
+Access level of 'Page_Load' changed to 'protected' in file ErrorPage.aspx.cs (Line 19).
+Removed attribute AutoEventWireup from file Faqs.aspx.
+Removed attribute Codebehind from file Faqs.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Faqs.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file feedetails.aspx.
+Removed attribute Codebehind from file feedetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file feedetails.aspx.cs (Line 103).
+Access level of 'button1_Click' changed to 'protected' in file feedetails.aspx.cs (Line 143).
+Removed attribute Codebehind from file Global.asax.
+Removed attribute autoeventwireup from file Home.aspx.
+Removed attribute Codebehind from file Home.aspx.
+Access level of 'Page_Load' changed to 'protected' in file home.aspx.cs (Line 21).
+Removed attribute autoeventwireup from file Mainpage.aspx.
+Removed attribute Codebehind from file Mainpage.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Mainpage.aspx.cs (Line 20).
+Removed attribute autoeventwireup from file NewStudentRegistration.aspx.
+Removed attribute Codebehind from file NewStudentRegistration.aspx.
+Access level of 'Page_Load' changed to 'protected' in file newstudentregistration.aspx.cs (Line 158).
+Access level of 'button1_Click' changed to 'protected' in file newstudentregistration.aspx.cs (Line 272).
+Access level of 'ddlcourse_SelectedIndexChanged' changed to 'protected' in file newstudentregistration.aspx.cs (Line 291).
+Access level of 'txtphone_TextChanged' changed to 'protected' in file newstudentregistration.aspx.cs (Line 296).
+Access level of 'ddlprof_SelectedIndexChanged' changed to 'protected' in file newstudentregistration.aspx.cs (Line 301).
+Removed attribute autoeventwireup from file StaffUploadMaterials.aspx.
+Removed attribute Codebehind from file StaffUploadMaterials.aspx.
+Access level of 'Page_Load' changed to 'protected' in file staffuploadmaterials.aspx.cs (Line 56).
+Access level of 'Button3_Click' changed to 'protected' in file staffuploadmaterials.aspx.cs (Line 151).
+Access level of 'btnCancel_Click' changed to 'protected' in file staffuploadmaterials.aspx.cs (Line 159).
+Access level of 'ddlproef_SelectedIndexChanged' changed to 'protected' in file staffuploadmaterials.aspx.cs (Line 192).
+Removed attribute AutoEventWireup from file StdHome.aspx.
+Removed attribute Codebehind from file StdHome.aspx.
+Access level of 'Page_Load' changed to 'protected' in file StdHome.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file StudentMaterialDownloads.aspx.
+Removed attribute Codebehind from file StudentMaterialDownloads.aspx.
+Access level of 'Page_Load' changed to 'protected' in file StudentMaterialDownloads.aspx.cs (Line 33).
+Access level of 'btnPrev_Click' changed to 'protected' in file StudentMaterialDownloads.aspx.cs (Line 143).
+Access level of 'btnNext_Click' changed to 'protected' in file StudentMaterialDownloads.aspx.cs (Line 150).
+Removed attribute AutoEventWireup from file StudentPaymentDetails.aspx.
+Removed attribute Codebehind from file StudentPaymentDetails.aspx.
+Access level of 'Page_Load' changed to 'protected' in file StudentPaymentDetails.aspx.cs (Line 36).
+Access level of 'Button1_Click' changed to 'protected' in file StudentPaymentDetails.aspx.cs (Line 91).
+Removed attribute AutoEventWireup from file Tellafriend.aspx.
+Removed attribute Codebehind from file Tellafriend.aspx.
+Access level of 'Page_Load' changed to 'protected' in file Tellafriend.aspx.cs (Line 20).
+Access level of 'button1_Click' changed to 'protected' in file Tellafriend.aspx.cs (Line 63).
+Removed attribute AutoEventWireup from file WebForm3.aspx.
+Removed attribute Codebehind from file WebForm3.aspx.
+Access level of 'Page_Load' changed to 'protected' in file WebForm3.aspx.cs (Line 19).
+Removed attribute TargetSchema from file Usercontrols\Header.ascx.
+Removed attribute AutoEventWireup from file Usercontrols\Header.ascx.
+Removed attribute Codebehind from file Usercontrols\Header.ascx.
+Access level of 'Page_Load' changed to 'protected' in file Usercontrols\Header.ascx.cs (Line 16).
+Removed attribute TargetSchema from file Usercontrols\SchoolBottomControl.ascx.
+Removed attribute AutoEventWireup from file Usercontrols\SchoolBottomControl.ascx.
+Removed attribute Codebehind from file Usercontrols\SchoolBottomControl.ascx.
+Access level of 'Page_Load' changed to 'protected' in file Usercontrols\SchoolBottomControl.ascx.cs (Line 16).
+Removed attribute TargetSchema from file Usercontrols\WebUserControl2.ascx.
+Removed attribute AutoEventWireup from file Usercontrols\WebUserControl2.ascx.
+Removed attribute Codebehind from file Usercontrols\WebUserControl2.ascx.
+Access level of 'Page_Load' changed to 'protected' in file Usercontrols\WebUserControl2.ascx.cs (Line 16).
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Removed file Bin\Eschool.dll.
+Removed file Bin\Eschool.pdb.
+Removed file Eschool.csproj.
+Renamed file webform1.aspx to file webform1.aspx.exclude.
+Renamed file studentdownloadmaterial.aspx to file studentdownloadmaterial.aspx.exclude.
+Project Eschool.csproj has been converted successfully at December 31 2008, 10:09:05.

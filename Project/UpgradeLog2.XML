@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Eschool">
+</Property><Property Name="Solution File" Value="E:\projects\dotnet app upcomm\E-learning community\Project\Eschool.sln">
+</Property><Property Name="Date" Value="Wednesday, September 03, 2014">
+</Property><Property Name="Time" Value="16:57 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="http://localhost/Eschool/Eschool.csproj" Source="http://localhost/Eschool/Eschool.csproj" Description="To access local IIS Web sites, you must install the following IIS components:&#xA;&#xA;      Internet Information Services&#xA;      IIS 6 Metabase and IIS 6 Configuration Compatibility&#xA;      ASP.NET&#xA;&#xA;In addition, you must run Visual Studio in the context of an administrator account.&#xA;&#xA;For more information, press F1.">
+</Event><Event ErrorLevel="0" Project="" Source="Eschool.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="Eschool.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

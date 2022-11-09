@@ -1,0 +1,173 @@
+body
+{
+	border-right: medium none;
+	border-top: medium none;
+	SCROLLBAR-FACE-COLOR: #6b9ece;
+	margin: 0px;
+	word-spacing: normal;
+	SCROLLBAR-HIGHLIGHT-COLOR: #bddbf7;
+	text-transform: none;
+	border-left: medium none;
+	SCROLLBAR-SHADOW-COLOR: #bddbf7;
+	SCROLLBAR-TRACK-COLOR: #bddbf7;
+	border-bottom: medium none;
+	font-family: Tahoma;
+	font-size: 8pts;
+	SCROLLBAR-DARKSHADOW-COLOR: #bddbf7;
+	scrollbar-dlight-color: BDDBF7;
+}
+.txtcls
+{
+	font-size: 11px;
+	font-family: Arial;
+	background-color: White;
+}
+
+.maintblcls
+{
+	border-color: #cccccc;
+width: 81%;
+	border-collapse: collapse;
+	background-color: #f7f7f7;
+	height: 387px;
+    margin-right: 130px;
+}
+.tdcls
+{
+	font-size: 15px;
+	font-family: Arial;
+	background-color: #DCEAF7;
+}
+
+.btncls
+{
+	font-weight: bold;
+	font-size: 12px;
+	cursor: hand;
+	color: white;
+	font-family: Arial;
+	background-color: #8cb2de;
+	height: 25px;
+}
+.HeadingText
+{
+	font-weight: Bold;
+	font-size: 12pt;
+	color: #ffffff;
+	font-family: Arial;
+	background-color: #8cb2de;
+	text-align: center;
+}
+.lblalign
+{
+	align: right;
+}
+
+
+a:link
+{
+	color: #494949;
+	background: transparent;
+}
+
+a:visited
+{
+	color: #666666;
+}
+
+a:hover
+{
+	color: #a52a2a;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: #484500;
+}
+
+
+#buttoncontainer
+{
+	position: absolute;
+	left: 0.2em;
+	top: 13em;
+	width: 13em;
+}
+
+#button ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#button li
+{
+	width: 100px;
+	margin-bottom: 1px;
+	margin-left: 10px;
+}
+
+#button li a
+{
+	border-right: #b59c89 1px solid;
+	padding-right: 2px;
+	border-top: #b59c89 1px solid;
+	display: block;
+	padding-left: 2px;
+	background: url(../Image/acbutt.jpg);
+	padding-bottom: 2px;
+	border-left: #b59c89 1px solid;
+	width: 120px;
+	color: #484500;
+	padding-top: 2px;
+	border-bottom: #b59c89 1px solid;
+	text-decoration: none;
+}
+
+#button li a:visited
+{
+	color: #666666;
+}
+
+#button li a:hover
+{
+	background: url(../Image/overbutt.jpg);
+	color: #007101;
+}
+
+li#here a:link, li#here a:visited, li#here a:hover
+{
+	background: url(../Image/overbutt.jpg);
+	color: #007101;
+}
+table
+{
+	align: center;
+	text-align: center;
+    width: 88%;
+}
+h1
+{
+	align: center;
+	color: #007101;
+}
+h2
+{
+	align: center;
+	color: Lime;
+}
+h3
+{
+	align: center;
+	color: Maroon;
+}
+sup
+{
+	color:Red;
+}
+.ptext
+{
+	font: menu;
+}

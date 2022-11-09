@@ -1,0 +1,89 @@
+<%@ Page CodeBehind="StudentDownloadMaterial.aspx.cs" Language="c#" AutoEventWireup="false" Inherits="Eschool.StudentDownloadMaterial" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="Styles/Home.css" rel="stylesheet" type="text/css">
+<link href="Styles/Home.css" rel="stylesheet" type="text/css">
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0">
+<table width="776" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="802"><img src="bannerLogo.jpg" width="777" height="134"></td>
+  </tr>
+  <tr>
+    <td><img src="bannerdown.jpg" width="777" height="23"></td>
+  </tr>
+</table>
+<table width="777" height="592" border="1" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="167" height="238">
+	<div id="button">
+	<ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Home.html">Login</a></li>
+      <li><a href="Home.html">Courses</a></li>
+      <li><a href="Home.html">Schedules</a></li>
+      <li><a href="Home.html">Results</a></li>
+    </ul></div>	</td>
+    <td width="428" rowspan="2" valign="top"> <p>&nbsp;</p>
+    <table width="428" height="251" border="0">
+      <caption>
+      Students Material Downloads 
+      </caption>
+      <tr>
+        <td height="247" align="center" valign="top"><asp:Repeater runat="server"></asp:Repeater>&nbsp;</td>
+      </tr>
+    </table>
+    <p>&nbsp;    </p></td>
+    <td width="174" valign="top"><center>
+      <table width="161" height="311" border="0">
+        <tr>
+          <td width="151" height="305"><p> You can use the nav bar on the left or development lesson section. We constantly strive to improve the site by adding new programming tutorials for each language. Our aim is to be a beginning developers programming and help resource center. Have fun and enjoy! </p></td>
+        </tr>
+      </table>
+    </center></td>
+  </tr>
+  <tr>
+    <td height="329" valign="top">
+	<table width="167" border="0">
+      <caption align="top">
+      Adds Here
+      </caption>
+      <tr>
+        <td width="180"><img src="teacher.jpg" width="161" height="122"></td>
+      </tr>
+    </table>
+      <table width="167" height="134" border="0">
+        <caption align="top">
+        Second Add Here
+        </caption>
+        <tr>
+          <td width="185" height="130"><img src="laptop.jpg" width="161" height="122"></td>
+        </tr>
+    </table></td>
+    <td valign="top"><table width="162" border="0" cellpadding="0" cellspacing="0">
+      <caption>
+      Adds Here
+      </caption>
+      <tr>
+        <td width="162"><img src="../../ram/Eschool/Image/camonlinecity1_290_011203.jpg" width="161" height="122"></td>
+      </tr>
+    </table>
+      <table width="169" height="130" border="1" cellpadding="0" cellspacing="0">
+        <caption>
+        Adds Here
+        </caption>
+        <tr>
+          <td width="221" height="128"><img src="../../ram/Eschool/Image/session4.jpg" width="161" height="122"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr bgcolor="#0066FF">
+    <td height="23" colspan="3" align="center"><font color="white">&copy; Rights Reserved 2005,&nbsp;&nbsp;Eschool.com</font></td>
+  </tr>
+</table>
+</body>
+</html>
